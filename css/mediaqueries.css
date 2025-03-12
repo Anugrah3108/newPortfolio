@@ -1,0 +1,64 @@
+@media screen and (min-width: 769px){
+    .nav-hamburger{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .nav-left{
+        display: none;
+    }
+    .nav-hamburger{
+        display: block;
+    }
+
+    .menu-links{
+        background-color: var(--blue);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-links > li{
+        list-style-type: none;
+        padding: 1rem;
+    }
+    
+    .menu-links > li > a{
+        text-decoration: none;
+        color: var(--white);
+        padding: 0.25rem;
+    }
+
+}
+@media screen and (max-width: 621px){
+    .education-card > img{
+        display: none;
+    }
+    .education-card{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 561px){
+    .profile-img{
+        display: none;
+    }
+    .about-details-container{
+        width: 100%;
+    }
+    .contact-details{
+        flex-direction: column;
+    }
+
+    .contact-card{
+        margin-top: 10px;
+    }
+
+    .project-content, .progress-content, .education-content{
+        flex-direction: column;
+    }
+
+    .card, .education-card{
+        width: 100%;
+    }
+}
