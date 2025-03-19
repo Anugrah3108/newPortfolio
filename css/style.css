@@ -288,8 +288,9 @@ button > a{
     margin-top: 5px;
 }
 
-.project-description>h2{
+.project-description > h2 > a{
     color: var(--orange);
+    text-decoration: none;
 }
 
 .description{
